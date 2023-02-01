@@ -2,8 +2,7 @@
 function exibirgaleriachad() {
     const elemento = document.getElementById ('galeriachad')
 
-    elemento.innerHTML = elemento.innerHTML + '<img src="https://www.thesun.co.uk/wp-content/uploads/2021/10/OFF-PLAT-JD-GIGACHAD.jpg?w=660"></img>',
-    (false)
+    elemento.innerHTML = elemento.innerHTML + '<img src="https://www.thesun.co.uk/wp-content/uploads/2021/10/OFF-PLAT-JD-GIGACHAD.jpg?w=660"></img>'
 } 
 
 function darktheme() {
