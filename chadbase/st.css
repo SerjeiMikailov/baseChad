@@ -62,3 +62,15 @@ body {margin: 0px;}
     .chadform1 {margin-top: 0px; margin-bottom: 3px; margin-left: 10px; padding: 0px; font-weight: bold; font-size: 17px; opacity: 0;}
 
     #naoapto {color: rgb(233, 0, 0); border: 2px; border-radius: 2px; border-style: solid; width: 218px; }
+
+    #h1-1 {margin-left: 0px; background-color: black; font-size: 90px; color: #eee; width: 1920px; margin: 0px;} 
+
+    #h2-1 {margin-left: 20px; border-bottom: black; border-radius: 2px; border-style: solid ; width: 140px; margin-top: 10px;}
+
+    #div-top-chads {background-color: rgb(12, 71, 197); width: 1300px; margin-left: 30px; border-style: solid; border: 3px; border-radius: 2px; border-color: black;}
+
+    .topChads-class {margin-left: 20px;}
+
+    #botao-exibirChad {font-size: 16px; font-weight: bold; margin-bottom: 5px; color: black; background-color: green;}
+
+    #botao-exibirChad:hover {color: red;}
