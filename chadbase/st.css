@@ -61,7 +61,7 @@ body {margin: 0px;}
 
     .chadform1 {margin-top: 0px; margin-bottom: 3px; margin-left: 10px; padding: 0px; font-weight: bold; font-size: 17px; opacity: 0;}
 
-    #naoapto {color: rgb(233, 0, 0); border: 2px; border-radius: 2px; border-style: solid; width: 218px; }
+    #naoapto {color: rgb(233, 0, 0); border: 2px; border-radius: 2px; border-style: solid; width: 218px; margin-top: 8px;}
 
     #h1-1 {margin-left: 0px; background-color: black; font-size: 90px; color: #eee; width: 1920px; margin: 0px;} 
 
@@ -74,3 +74,11 @@ body {margin: 0px;}
     #botao-exibirChad {font-size: 16px; font-weight: bold; margin-bottom: 5px; color: black; background-color: green;}
 
     #botao-exibirChad:hover {color: red;}
+
+    #chadChoiceButton {margin: 10px;}
+
+    #vcConcorda {margin: 8px;}
+
+    #divCheckBox {display: flexbox;}
+
+    #Sim1 {margin: 0px; margin-left: 10px;}
