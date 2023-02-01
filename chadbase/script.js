@@ -31,16 +31,3 @@ function showChadButton() {
     alert ('Você concordou com os termos chads')
 }
 
-function loginChad() {
-    if (el1.className = 'chadform') {
-        el1.classList.remove('chadform')
-    }
-    el1.classList.add('chadform1')
-
-    if (el2.className = 'chadform1') {
-        el2.classList.remove('chadform1')
-    } 
-    el2.classList.add('chadform')
-}
-
-//99999999
