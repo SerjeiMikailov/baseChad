@@ -23,10 +23,11 @@ function showChadButton() {
 
     alert ('Você concordou com os termos chads')
 }
-
+////////test function////////
 function gg() {
     alert('kk')
 }
+////////test function////////
 
 let qtdVezes = 0;
 
