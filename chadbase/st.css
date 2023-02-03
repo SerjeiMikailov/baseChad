@@ -83,7 +83,7 @@ tbody tr:nth-child(even) {
 .qualchadvocee {
   font-size: 25px;
   margin-left: 30px;
-  color: rgb(38, 0, 255);
+  color: rgb(2, 1, 7);
 }
 
 option {
@@ -141,7 +141,7 @@ option {
 }
 
 .blackbody {
-  background-color: rgba(40, 173, 28, 0.979);
+  background-color: rgba(8, 163, 86, 0.979);
 }
 
 .alternativechadform {
@@ -156,6 +156,7 @@ option {
   font-weight: bold;
   font-size: 17px;
   opacity: 0;
+  display: none;
 }
 
 #naoapto {
@@ -237,3 +238,15 @@ option {
 #hidebutton:hover {
   color: red;
 }
+
+.termos-fieldset {border-color: rgb(5, 5, 5); margin-top: 1px; font-size: 13px; padding: 0px; width: 180px; font-weight: bold; color: rgb(47, 13, 197); margin-left: 12px;}
+
+.termos {margin-left: 12px; margin-top: 3px; margin-bottom: 3px;}
+
+#termsButton {margin-top: 3px; width: 70px; margin-left: 60px; background-color: dodgerblue; color: black;}
+
+#termsButton:hover {color: red;}
+
+.termos1 {opacity: 0; display: none;}
+
+#chadtop1 {margin-left: 20px;}

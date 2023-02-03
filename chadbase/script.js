@@ -63,7 +63,7 @@ function usarFunc() {
       '<img class="topChads-class" src="https://img.ifunny.co/images/dbdf7ab8c6b75b34a9b98804dfb5725f4c51dd5449679977f68f520f61657ae0_1.jpg"></img>';
     elemento.innerHTML =
       elemento.innerHTML +
-      '<video class="topChads-class" width="680" height="480" controls="controls" autoplay=""><source src="sfiles/descoberta_de_macho.mp4" type="video/mp4"><object data="" width="320" height="240"><embed width="320" height="240" src="sfiles/descoberta_de_macho.mp4"></object></video>';
+      '<video class="topChads-class" width="680" height="480" controls="controls"><source src="sfiles/descoberta_de_macho.mp4" type="video/mp4"><object data="" width="320" height="240"><embed width="320" height="240" src="sfiles/descoberta_de_macho.mp4"></object></video>';
     elemento.innerHTML =
       elemento.innerHTML +
       '<div id="hidebutton" class="topChads-class"><button class="topChads-class" onclick="hide()">Ocultar (Não pode ser exibido novamente)</button></div>';
@@ -81,4 +81,20 @@ function hide() {
   const elemento = document.getElementById("div-topChads--elements");
 
   elemento.innerHTML = elemento.innerHTML = "";
+}
+
+function showTerms() {
+  const termsDiv = document.querySelector("#termoschads");
+
+  if (termsDiv.classList.contains("termos1")) {
+    termsDiv.classList.replace("termos1", "termos");
+  } 
+}
+
+function hideTerms() {
+  const termsDiv = document.querySelector("#termoschads");
+
+  if (termsDiv.classList.contains("termos")) {
+    termsDiv.classList.replace("termos", "termos1");
+  } 
 }
